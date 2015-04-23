@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MPS_UNINIT"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="play"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:id="@+id/bt_player"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pause"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:id="@+id/bt_pause"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="stop"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:id="@+id/bt_stop"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
