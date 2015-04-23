@@ -4,7 +4,7 @@ this project Using AudioTrack play PCM audio files
 
 ##chinese
 
-这里要感谢原文的作者，大部分的播放功能以及实现都是出于原作者的代码，我只是经过改编而已。
+这里要感谢原文的作者，大部分的播放功能以及实现都是出于原作者的代码，我只是经过改编而已，该Demo用Android Studio编写。
 
 [原作者博客地址](http://blog.csdn.net/lancees ) 
 
